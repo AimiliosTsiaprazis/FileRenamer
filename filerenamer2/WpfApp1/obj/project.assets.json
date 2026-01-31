@@ -299,24 +299,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\atsia\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\atsia\\Desktop\\Programmierung\\WindowsForms - WPF\\filerenamer2\\WpfApp1\\WpfApp1.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\TEST\\FileRenamer\\filerenamer2\\WpfApp1\\WpfApp1.csproj",
       "projectName": "WpfApp1",
-      "projectPath": "C:\\Users\\atsia\\Desktop\\Programmierung\\WindowsForms - WPF\\filerenamer2\\WpfApp1\\WpfApp1.csproj",
-      "packagesPath": "C:\\Users\\atsia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\atsia\\Desktop\\Programmierung\\WindowsForms - WPF\\filerenamer2\\WpfApp1\\obj\\",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\TEST\\FileRenamer\\filerenamer2\\WpfApp1\\WpfApp1.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\TEST\\FileRenamer\\filerenamer2\\WpfApp1\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\atsia\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -342,7 +337,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net5.0-windows7.0": {
@@ -398,7 +393,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
