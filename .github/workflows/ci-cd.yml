@@ -1,0 +1,38 @@
+name: Build FileRenamer WPF App
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      # 1️⃣ Repository auschecken
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 2️⃣ .NET 8.0 SDK einrichten
+      - name: Set up .NET 8.0 SDK
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: "8.0.x"
+
+      # 3️⃣ Restore-Abhängigkeiten
+      - name: Restore dependencies
+        run: dotnet restore FileRenamer2/WpfApp1/*.csproj
+
+      # 4️⃣ Projekt bauen
+      - name: Build project
+        run: dotnet build FileRenamer2/WpfApp1/*.csproj --configuration Release --no-restore
+
+      # 5️⃣ Optional: Artefakte hochladen
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: FileRenamer-Build
+          path: |
+            **/bin/Release/
